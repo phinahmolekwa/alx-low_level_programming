@@ -12,7 +12,7 @@ char c = '0';
 
 while (c <= '9')
 {
-putchar(char c);
+putchar(c);
 c++;
 }
 putchar('\n');
