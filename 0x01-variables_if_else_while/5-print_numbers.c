@@ -8,11 +8,13 @@
  */
 int main(void)
 {
-  char c = '0';
-  while ( char c <= '9')
-    putchar(char c);
-      c++;
+char c = '0';
 
-      putchar('\n');
-      return (0)
-	}
+while (c <= '9')
+{
+putchar(char c);
+c++;
+}
+putchar('\n');
+return (0);
+}
