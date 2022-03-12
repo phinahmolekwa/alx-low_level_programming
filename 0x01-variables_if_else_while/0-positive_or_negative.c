@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <time.h>
-#include <stdlib>
+
 /**
  *main-main block
  *Return: 0
