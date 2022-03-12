@@ -3,7 +3,10 @@
 #include <time.h>
 /* more headers goes there */
 
-
+/**
+ *main - entry point
+ *Return: 0
+ */ 
 int main(void)
 {
 int n;
