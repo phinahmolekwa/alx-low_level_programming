@@ -6,11 +6,10 @@
  *prints 10x the alphabet in lowercase
  */
 
-int main(void)
-
 void print_alphabet_x10(void)
 {
   int b = 0;
+  
   while (b < 10)
     {
       char a = 'a';
@@ -22,5 +21,6 @@ void print_alphabet_x10(void)
 	}
       _putchar('\n');
       b++;
+      return(0);
     }
 }
