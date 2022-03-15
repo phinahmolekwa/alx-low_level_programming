@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
- *main-entry point
+ *print_alphabet-entry point
  *print alphabet in lowercase
  *Return: 0 (Always)
  */
@@ -17,4 +17,5 @@ void print_alphabet(void);
       alp++;
     }
   _putchar('\n');
+  return(0);
 }
