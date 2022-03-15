@@ -1,15 +1,20 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- *main-check code for Holberton School students.
+ *print_alphabet - print alphabet
  *
- *print alphabet in lowercase
  *Return: 0 (Always)
  */
 
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
+  char c = 'a';
+
+  while (c <= 'z')
+    {
+      _putchar(c);
+      c++;
+    }
+  _putchar('\n');
 return(0);
 }
