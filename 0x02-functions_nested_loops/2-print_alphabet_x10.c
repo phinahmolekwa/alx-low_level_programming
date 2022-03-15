@@ -1,10 +1,12 @@
-#include <main.h>
+#include "main.h"
 #include <stdio.h>
 /**
- *main-entry point
+ *main-check the code
  *Return: 0
  *prints 10x the alphabet in lowercase
  */
+
+int main(void)
 
 void print_alphabet_x10(void)
 {
