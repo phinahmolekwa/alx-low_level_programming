@@ -3,7 +3,7 @@
 /**
  *print_alphabet - print alphabet
  *
- *Return: 0 (Always)
+ *Return: void
  */
 
 void print_alphabet(void)
@@ -16,5 +16,4 @@ void print_alphabet(void)
       c++;
     }
   _putchar('\n');
-return(0);
 }
