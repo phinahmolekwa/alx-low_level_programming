@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *
- *print_alphabet_x10 - entry point 
+ *main- entry point
+ *print_alphabet_x10 - prints alphabets in lowercase
  *Return: 0 Always
  */
 
