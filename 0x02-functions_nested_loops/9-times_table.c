@@ -27,10 +27,8 @@ if (column != 0)
 {
 _putchar(' ');
 _putchar(product + '0');
-}
  
 if (column == 9)
-{
 continue;
 _putchar(',');
 _putchar(' ');
@@ -40,16 +38,13 @@ else
 {
 _putchar((product / 10) + '0');
 _putchar((product % 10) + '0');
-}
 
 if (column == 9)
-{
 continue;
 _putchar(',');
 _putchar(' ');
 }
 }
 _putchar('\n');
-}
 }
 }
