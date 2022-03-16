@@ -47,7 +47,7 @@ else
 _putchar(tens + '0');
 _putchar(ones + '0');
 }
-if (colunm < 9)
+if (column < 9)
 {
 _putchar(',');
 _putchar(' ');
