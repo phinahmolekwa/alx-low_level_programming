@@ -2,7 +2,7 @@
 
 /**
  *
- *print_alphabet_X10 - print the alphabet 10 times
+ *print_alphabet_x10 - entry point 
  *Return: 0 Always
  */
 
@@ -18,6 +18,7 @@ for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
 _putchar(alphabet);
 }
+count++;
 _putchar('\n');
 }
 }
