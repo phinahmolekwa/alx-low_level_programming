@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main-print first 50 fibonacci
+ *main - main entry
  *Retuen: 0 Always
  */
 
