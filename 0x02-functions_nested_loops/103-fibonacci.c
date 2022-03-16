@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- *main - main entry
+ *main - finds and prints the sum of the even-valued terms
+ *
  *Retuen: 0 Always
  */
 
