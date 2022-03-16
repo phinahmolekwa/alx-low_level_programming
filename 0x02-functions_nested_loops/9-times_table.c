@@ -36,7 +36,7 @@ _putchar(' ');
 _putchar(ones + '0');
 }
 
-if (colunm < 9)
+if (column < 9)
 {
 _putchar(',');
 _putchar(' ');
