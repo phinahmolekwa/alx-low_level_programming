@@ -3,11 +3,11 @@
 /**
  *_isalpha - checks for alphabetic charater
  *
- *@c: ascii character
+ *@c: the int to print
  *Return: 0 Always
  */
 
-int isalpha(int c)
+int _isalpha(int c)
 {
 if (c >= 'a' && c <= 'z')
 {
