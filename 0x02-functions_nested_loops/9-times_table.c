@@ -20,7 +20,7 @@ for (column = 0; column < 10; column++)
 
 product = row * column;
 
- 
+
 if (column == 0)
 {
 _putchar('0' + product);
