@@ -7,7 +7,9 @@
  *Return: 0 Always
  */
 
-void add(int i, int k)
+int add(int i, int k)
 {
-return(i + k);
+int sum;
+sum = i + k;
+return(sum);
 }
