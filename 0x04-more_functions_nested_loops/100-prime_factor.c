@@ -7,17 +7,22 @@
 
 int main(void)
 {
-long int x = 612852475143;
-long in py;
+int i = 2;
+long n = 612852475143;
 
-for (py = 2; py < x; py++)
+while (i < n)
 {
-if (x % py == 0)
+while (n % 1 == 0)
 {
-x = x / py;
+if (n == i)
+{
+break;
 }
+n/= i;
 }
-printf("%d\n", py);
+i++;
+}
+printf("%lu\n", n);
 return (0);
 }
 
