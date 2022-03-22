@@ -24,5 +24,5 @@ printf(", ");
 }
 i++;
 }
-_printf("\n");
+printf("\n");
 }
