@@ -33,7 +33,7 @@ i--;
 
 for (j = 0; j <= i; j++)
 {
-printf("%c", password[j];
+  printf("%c", password[j]);
 }
 return (0);
 }
