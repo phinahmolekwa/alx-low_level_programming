@@ -16,7 +16,7 @@ i = 0;
 
 while (i < n && src[i] != '\0')
 {
-dest[1] = src[i];
+dest[i] = src[i];
 i++;
 }
 
