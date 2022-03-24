@@ -1,7 +1,7 @@
-#include <stdlib.h>
-#include <math.h>
-#include <time.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <math.h>
 
 /**
  *main - print password
@@ -10,7 +10,7 @@
 
 int main(void)
 {
-  int ascii = 2772, i = 0, j, random;
+int ascii = 2772, i = 0, j, random;
 char password[100];
 time_t t;
 
@@ -37,4 +37,3 @@ for (j = 0; j <= i; j++)
 }
 return (0);
 }
-  
