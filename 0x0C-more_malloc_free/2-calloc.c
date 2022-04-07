@@ -19,7 +19,7 @@ if (p == NULL)
 return (NULL);
 
 for (i = 0; i < nmemb * size; i++)
-p[i];
+p[i] = 0;
 
 return (p);
 }
