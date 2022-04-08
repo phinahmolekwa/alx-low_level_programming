@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *main - multiplies two positive numbers
+ *main - print the results of multiplication
  *@argc: n arguments
  *@argv: args
- *Return: int 
+ *Return: 0
  */
 
 int main(int argc, char *argv[])
