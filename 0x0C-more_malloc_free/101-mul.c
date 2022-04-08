@@ -68,9 +68,9 @@ _putchar('0' + resp);
  *Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
-  (void)argc;
+(void)argc;
 if (argc != 3)
 {
 _puts("Error");
